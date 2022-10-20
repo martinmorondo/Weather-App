@@ -16,9 +16,9 @@ form.addEventListener('submit', (e) => {
 });
 
 function callAPI(city, country) {
-    const apiID = '7ac5bd23405fc2c7039487736e72cc73';
+    const apiID = '#';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiID}`;
-    // https://api.openweathermap.org/data/2.5/weather?q=bogota,Colombia&appid=7ac5bd23405fc2c7039487736e72cc73 
+    // #
 
     fetch(url)
         .then(data => {
